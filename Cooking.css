@@ -1,0 +1,36 @@
+.Logo{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    padding-right:30%;
+    
+}
+nav{
+  
+    display:flex;
+    text-align: left;
+    justify-content:center;
+    font-family: "Roboto";
+    align-items:center;
+    font-size: 13px;
+    
+    
+}
+ul{
+    height: 100px;
+    list-style:none;
+    display:flex;
+    gap:60px;
+    font-family: "Roboto";
+    font-size: 17px;
+    color: #000;
+    
+}
+.Image{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-right: 55%;
+    
+}
