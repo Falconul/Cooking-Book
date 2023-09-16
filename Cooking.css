@@ -32,14 +32,13 @@ ul{
     padding-top: 100px;
     padding-right: 55%;
     
-<<<<<<< HEAD
 }
 
 .Ingredients{
     display: flex;
     position: relative;
     justify-content: center;
-    padding-left: 50px;
+    padding-right: 60px;
     top: -350px;
 }
 .AboutDish{
@@ -59,7 +58,7 @@ ul{
 .Title-Ingredients{
     position: relative;
     justify-content: center;
-    padding-left: 560px;
+    padding-left: 510px;
     bottom:810px;
     color: #000;
     font-size:22px;
@@ -80,6 +79,3 @@ ul{
     color: #000;
     font-size:22px;
 }
-=======
-}
->>>>>>> e05d0829f22ac9a369bac37eff65ced869dd32a7
