@@ -1,9 +1,8 @@
 .Logo{
     display: flex;
-    
     justify-content: center;
     align-items: center;
-    padding-right:30%;
+    padding-right: 30%;
     
 }
 nav{
@@ -18,7 +17,7 @@ nav{
     
 }
 ul{
-    height: 100px;
+    height: 70px;
     list-style:none;
     display:flex;
     gap:60px;
@@ -33,4 +32,50 @@ ul{
     padding-top: 100px;
     padding-right: 55%;
     
+}
+
+.Ingredients{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding-left: 50px;
+    top: -350px;
+}
+.AboutDish{
+    display: flex;
+    position:relative;
+    justify-content: center;
+    padding-left: 65%;
+    bottom: 480px;    
+}
+.Recepie{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding-left: 40%;
+    bottom: 450px;
+}
+.Title-Ingredients{
+    position: relative;
+    justify-content: center;
+    padding-left: 560px;
+    bottom:810px;
+    color: #000;
+    font-size:22px;
+}
+.Title-AboutDish{
+    position: relative;
+    justify-content: center;
+    padding-left: 830px;
+    bottom:840px;
+    color: #000;
+    font-size:22px;
+}
+.Title-Recepie{
+    position: relative;
+    justify-content: center;
+    padding-left: 510px;
+    bottom:690px;
+    color: #000;
+    font-size:22px;
 }
