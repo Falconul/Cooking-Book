@@ -1,9 +1,8 @@
 .Logo{
     display: flex;
-    
     justify-content: center;
     align-items: center;
-    padding-right:30%;
+    padding-right: 30%;
     
 }
 nav{
@@ -18,7 +17,7 @@ nav{
     
 }
 ul{
-    height: 100px;
+    height: 70px;
     list-style:none;
     display:flex;
     gap:60px;
@@ -84,5 +83,4 @@ footer{
     flex-direction: row;
     gap: 15px;
     justify-content: center;
-
 }
