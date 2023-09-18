@@ -1,12 +1,13 @@
+header{
+    background-color: orange;
+}
 .Logo{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 30%;
-
-
-    
+    padding-right: 30%; 
 }
+
 nav{
   
     display:flex;
@@ -15,13 +16,12 @@ nav{
     font-family: "Roboto";
     align-items:center;
     font-size: 13px;
-    
-    
 }
 ul{
     height: 70px;
     list-style:none;
     display:flex;
+    flex-direction: row;
     gap:60px;
     font-family: "Roboto";
     font-size: 17px;
@@ -38,6 +38,7 @@ ul{
 
 .Ingredients{
     display: flex;
+    flex-direction: row;
     position: relative;
     justify-content: center;
     padding-right: 60px;
@@ -85,7 +86,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    height: 200px;
+    height: 150px;
     background-color: orange;
 }
 .contact-us{
@@ -94,7 +95,7 @@ footer{
     text-align: center;
     font-family: "Roboto";   
     color: white;
-    justify-content: center;
+    justify-content: flex-start;
 }
 .contact-us h3{
     text-align: center;
@@ -115,6 +116,7 @@ footer{
     justify-content: space-evenly;
     align-items: flex-start;
     gap: 20px;
+    padding-top: 11px;
 }
 .contact--icons{
     display: flex;
@@ -124,7 +126,7 @@ footer{
 .social-media{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
 }
 .social-media h3{
     text-align: center;
@@ -137,4 +139,10 @@ footer{
     gap: 15px;
     justify-content: center;
 }
+.copyright{
+    color: white;
+    font-family: 'roboto';
+    font-size: small;
+    padding-top: 20px;
 
+}
