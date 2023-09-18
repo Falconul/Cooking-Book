@@ -28,6 +28,46 @@ ul{
     color: #000;
     
 }
+
+/* adding about us section */
+.aboutus{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'roboto';
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.aboutus h1{
+    color: black;
+    text-align: center;
+    padding: 50px
+}
+.storyleft{
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.storyright{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.storytxt{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.storyimage{
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+}
 .Image{
     display: flex;
     justify-content: center;
