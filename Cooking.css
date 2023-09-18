@@ -1,16 +1,28 @@
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 header{
     background-color: orange;
+    height: 135px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 .Logo{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    padding-right: 30%; 
+    width: 200px;
+    height: 135px;
 }
 
 nav{
   
     display:flex;
+    flex-direction: row;
     text-align: left;
     justify-content:center;
     font-family: "Roboto";
@@ -18,7 +30,6 @@ nav{
     font-size: 13px;
 }
 ul{
-    height: 70px;
     list-style:none;
     display:flex;
     flex-direction: row;
@@ -26,48 +37,41 @@ ul{
     font-family: "Roboto";
     font-size: 17px;
     color: #000;
+    color: white;
     
 }
 
-/* adding about us section */
-.aboutus{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-family: 'roboto';
-    padding-right: 100px;
-    padding-left: 100px;
-}
-
-.aboutus h1{
-    color: black;
-    text-align: center;
-    padding: 50px
-}
-.storyleft{
-    display: flex;
-    flex-direction: row;
-    padding-left: 100px;
-    padding-right: 100px;
-}
-.storyright{
-    display: flex;
-    flex-direction: row-reverse;
-    padding-left: 100px;
-    padding-right: 100px;
-}
-.storytxt{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding-right: 50px;
-    padding-left: 50px;
-}
-.storyimage{
-    display: flex;
-    padding-left: 50px;
-    padding-right: 50px;
-}
+    .aboutus{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 20px;
+        padding-left: 10%;
+        padding-right: 10%;
+        font-family: 'roboto';
+     }
+     .about-us-text{
+        max-width: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+     .about-us-img{
+        width: 500px;
+        height: 500px;
+        object-fit:cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+     img{
+        max-width: 100%;
+        max-height: 100%;
+     }
+     .about-us-text h1{
+        padding-bottom: 30px;
+     }
 .Image{
     display: flex;
     justify-content: center;
@@ -135,13 +139,15 @@ footer{
     text-align: center;
     font-family: "Roboto";   
     color: white;
-    justify-content: flex-start;
+    justify-content: flex-end;
+    padding-bottom: 35px;
 }
 .contact-us h3{
     text-align: center;
     font-family: "Roboto";   
     color: white;
     text-align: center;
+    padding-bottom: 20px;
 
 }
 .contact--us{
@@ -166,7 +172,7 @@ footer{
 .social-media{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: flex-end;
 }
 .social-media h3{
     text-align: center;
@@ -178,6 +184,7 @@ footer{
     flex-direction: row;
     gap: 15px;
     justify-content: center;
+    padding-top: 20px;
 }
 .copyright{
     color: white;
