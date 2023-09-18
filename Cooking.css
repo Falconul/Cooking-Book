@@ -3,7 +3,8 @@
     justify-content: center;
     align-items: center;
     padding-right: 30%;
-    
+
+
     
 }
 nav{
@@ -80,3 +81,60 @@ ul{
     color: #000;
     font-size:22px;
 }
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 200px;
+    background-color: orange;
+}
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Roboto";   
+    color: white;
+    justify-content: center;
+}
+.contact-us h3{
+    text-align: center;
+    font-family: "Roboto";   
+    color: white;
+    text-align: center;
+
+}
+.contact--us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.contact-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 20px;
+}
+.contact--icons{
+    display: flex;
+    flex-direction: row;
+    gap: 5px
+}
+.social-media{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.social-media h3{
+    text-align: center;
+    font-family: "Roboto";   
+    color: white;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+}
+
