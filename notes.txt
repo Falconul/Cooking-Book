@@ -1,0 +1,65 @@
+To do list:
+Create git hub, share link.
+Logo
+design website
+images for food
+images for drinks
+fonts 
+colours (green for veggie , Browns area with carbs - rice potatos , Dark ish red chicken beef blue for fish
+
+How to present recepies
+	Tittle
+	Image
+	
+	
+
+
+
+cooking with tayfun and joao
+
+
+nav bar - Cooking w/ Tayfun & Joao (logo with AI)
+about us - Lorem impsun
+recipes 
+	2 starters (1 turkish / 1 portuguese)
+		Lentil Soup
+		Prawns with garlic
+	6 mains (3 turkish / 3 portuguese)
+		Döner and İskender
+		Köfte
+		Mantı
+		Grilled sea bass
+		Rosted chicken
+		Duck rice
+	2 deserts (1 turkish / 1 portuguese)
+		Baklava
+		Sericaia
+drinks??? 
+	2 cocktails
+		Pina Colada 
+		Rum old fashioned
+contact us 
+social media(footer)
+
+Drop down menu for food **
+		starters
+		mains
+		deserts
+Drop down menu for  drinks (maybe)
+		cocktails
+		wine list
+		soft drinks
+
+
+
+Schedule for the week.
+
+Create an about us page. Joao
+Finished footer Joao
+Set up nav bar with dropdown menu Tayfun
+
+
+
+
+
+
